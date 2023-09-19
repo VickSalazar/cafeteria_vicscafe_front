@@ -1,4 +1,12 @@
+import '../styles/components/pages/ContactoPage.css';
 import React from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
+
 
 const ContactoPage = (props) => {
     return (
@@ -32,8 +40,17 @@ const ContactoPage = (props) => {
                     <h2>Otras vías de Contacto</h2>
                     <p>Contactanos por acá también</p>
                     <ul>
-                        <li><i className="fa-regular fa-envelope fa-xl"></i> Email: surchcafe@hotmail.com</li>
-                        <li><i className="fa-brands fa-instagram fa-xl"></i> Instagram: @surch.vilo</li>
+                        <li>
+                            <a href="mailto:surch.vilo@hotmail.com">
+                                <FontAwesomeIcon icon={faEnvelope} className="icono" size="xl" />
+                            </a> Email: surch.vilo@hotmail.com
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/surch.vilo"
+                                className="instagram social">
+                                <FontAwesomeIcon icon={faInstagram} className="icono" size="xl" />
+                            </a> Instagram: @surch.vilo
+                        </li>
                     </ul>
                 </div>
             </div>

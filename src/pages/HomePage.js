@@ -1,3 +1,4 @@
+import '../styles/components/pages/HomePage.css';
 import React from 'react';
 
 const HomePage = (props) => {
@@ -17,7 +18,6 @@ const HomePage = (props) => {
                             sapiente! Magnam!
                         </p>
                     </div>
-
                     <div className="columna1">
                         <h2> Café de Especialidad</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa accusantium nemo eos provident
@@ -37,7 +37,6 @@ const HomePage = (props) => {
                                     <span className="normal">Argentina</span>
                                 </div>
                             </section>
-
                             <section className="destacados">
                                 <h2>Horarios</h2>
                                 <div className="destacado">
@@ -47,9 +46,7 @@ const HomePage = (props) => {
                             </section>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </main>
     );

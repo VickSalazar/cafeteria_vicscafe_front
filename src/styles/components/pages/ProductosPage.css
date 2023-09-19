@@ -1,0 +1,38 @@
+.productos {
+    display: flex;
+    justify-content: column;
+    box-sizing: border-box;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.productos img {
+    float: left;
+    width: 120px;
+    height: 160px;
+
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    margin-bottom: 20px;
+    margin-right: 2%;
+
+}
+
+
+
+/* Para pantallas que sean iguales o mayores a 480*/
+@media screen and (min-width: 480px) {
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+
+
+}

@@ -1,3 +1,4 @@
+import '../styles/components/pages/ProductosPage.css';
 import React from 'react';
 
 const ProductosPage = (props) => {
